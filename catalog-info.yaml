@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: SG-terraform-infra
+  description: Terraform-managed secured infrastructure
+  annotations:
+    github.com/project-slug: goswamishushank-git/SG-terraform-infra
+spec:
+  type: infrastructure
+  owner: platform-team
