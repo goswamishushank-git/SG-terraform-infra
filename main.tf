@@ -10,6 +10,8 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
+  AWS_ACCESS_KEY_ID = "AKIA47CRWKM25HJNDHVR"
+  AWS_SECRET_ACCESS_KEY = "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"
 }
 
 resource "aws_vpc" "main" {
